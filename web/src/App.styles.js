@@ -42,7 +42,7 @@ export const TextArea = styled.textarea`
   }
 `;
 
-const Button = styled.button`
+export const Button = styled.button`
   background-color: pink;
   width: 100%;
   border: none;
@@ -51,3 +51,17 @@ const Button = styled.button`
   color: #46516e;
   font-size: 17px;
 `;
+
+export const Form = styled.form`
+  width: 400px;
+`;
+
+const MyRow = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+`;
+
+
+

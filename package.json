@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/makhatadze/binary-file-socket-chat/issues"
   },
-  "homepage": "https://github.com/makhatadze/binary-file-socket-chat#readme"
+  "homepage": "https://github.com/makhatadze/binary-file-socket-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -22,3 +22,22 @@ export const Container = styled.div`
   padding-bottom: 10px;
   margin-top: 25px;
 `;
+
+export const TextArea = styled.textarea`
+  width: 98%;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 17px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  outline: none;
+  color: lightgray;
+  letter-spacing: 1px;
+  line-height: 20px;
+  ::placeholder {
+    color: lightgray;
+  }
+`;

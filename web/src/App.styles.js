@@ -64,4 +64,14 @@ const MyRow = styled.div`
 `;
 
 
+export const MyMessage = styled.div`
+  width: 45%;
+  background-color: pink;
+  color: #46516e;
+  padding: 10px;
+  margin-right: 5px;
+  text-align: center;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+`;
 

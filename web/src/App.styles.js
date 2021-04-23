@@ -56,7 +56,7 @@ export const Form = styled.form`
   width: 400px;
 `;
 
-const MyRow = styled.div`
+export const MyRow = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -77,6 +77,7 @@ export const MyMessage = styled.div`
 
 export const PartnerRow = styled(MyRow)`
   justify-content: center;
+  justify-content: flex-start;
 `;
 
 export const PartnerMessage = styled.div`

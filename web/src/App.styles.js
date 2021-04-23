@@ -41,3 +41,13 @@ export const TextArea = styled.textarea`
     color: lightgray;
   }
 `;
+
+const Button = styled.button`
+  background-color: pink;
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  color: #46516e;
+  font-size: 17px;
+`;

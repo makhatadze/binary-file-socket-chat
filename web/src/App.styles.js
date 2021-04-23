@@ -75,3 +75,19 @@ export const MyMessage = styled.div`
   border-bottom-right-radius: 10%;
 `;
 
+export const PartnerRow = styled(MyRow)`
+  justify-content: center;
+`;
+
+export const PartnerMessage = styled.div`
+  width: 45%;
+  background-color: transparent;
+  color: lightgray;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-left: 5px;
+  text-align: center;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+`;
+
